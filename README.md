@@ -24,12 +24,25 @@ dispensers </strong>  to hold and release the products.
 
 <strong> the  properties of a cash register. </strong> <br/> 
 &nbsp; &nbsp;  The cash register has some cash on
-&nbsp; &nbsp; hand, it accepts the amount from the customer, and if the amount deposited is more
+hand, it accepts the amount from the customer, and if the amount deposited is more
 &nbsp; &nbsp; than the cost of the item, then—if possible—the cash register returns the change.
 &nbsp; &nbsp;For simplicity, we assume that the user deposits at least the amount of money for the
 &nbsp; &nbsp;product. The cash register should also be able to show the juice machine’s owner
 &nbsp; &nbsp;the amount of money in the register at any given time. The following class defines the
 &nbsp; &nbsp;properties of a cash register.
+ you can find the declration and implementation of cashRegister class in (cash_register.h and imp.cpp)  file  <br/> 
+
+<strong> the  properties of a dispenser. </strong> <br/> 
+The dispenser releases the selected item if it is not empty. The dispenser functionality : 
+1.show the number of items in the dispenser and the cost of the item.
+2. decrease the number of product item once the customer make a sale process 
+
+ you can find the declration and implementation of dispenserType class in (dispenser_type.h and imp.cpp)  file  <br/> 
+
+
+
+
+
 
 
 
