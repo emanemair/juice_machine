@@ -23,7 +23,7 @@ dispensers </strong>  to hold and release the products.
 
 
 <strong> the  properties of a cash register. </strong> <br/> 
-&nbsp &nbsp &nbsp &nbsp The cash register has some cash on
+&nbsp; &nbsp; &nbsp &nbsp The cash register has some cash on
 hand, it accepts the amount from the customer, and if the amount deposited is more
 than the cost of the item, then—if possible—the cash register returns the change.
 For simplicity, we assume that the user deposits at least the amount of money for the
