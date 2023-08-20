@@ -40,6 +40,18 @@ The dispenser releases the selected item if it is not empty. The dispenser funct
  you can find the declration and implementation of dispenserType class in (dispenser_type.h and imp.cpp)  file  <br/> 
 
 
+ ### the main program 
+ When the program executes, it must do the following:
+
+1. Show the selection to the customer.
+2. Get the selection.
+3. If the selection is valid and the dispenser corresponding to the
+selection is not empty, sell the product.
+
+
+ 
+
+
 
 
 
