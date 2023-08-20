@@ -34,7 +34,7 @@ hand, it accepts the amount from the customer, and if the amount deposited is mo
 
 <strong> the  properties of a dispenser. </strong> <br/> 
 The dispenser releases the selected item if it is not empty. The dispenser functionality : 
-1.show the number of items in the dispenser and the cost of the item.
+1.show the number of items in the dispenser and the cost of the item.<br/>
 2. decrease the number of product item once the customer make a sale process 
 
  you can find the declration and implementation of dispenserType class in (dispenser_type.h and imp.cpp)  file  <br/> 
