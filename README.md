@@ -23,13 +23,13 @@ dispensers </strong>  to hold and release the products.
 
 
 <strong> the  properties of a cash register. </strong> <br/> 
-&nbsp; &nbsp; &nbsp &nbsp The cash register has some cash on
-hand, it accepts the amount from the customer, and if the amount deposited is more
-than the cost of the item, then—if possible—the cash register returns the change.
-For simplicity, we assume that the user deposits at least the amount of money for the
-product. The cash register should also be able to show the juice machine’s owner
-the amount of money in the register at any given time. The following class defines the
-properties of a cash register.
+&nbsp; &nbsp;  The cash register has some cash on
+&nbsp; &nbsp; hand, it accepts the amount from the customer, and if the amount deposited is more
+&nbsp; &nbsp; than the cost of the item, then—if possible—the cash register returns the change.
+&nbsp; &nbsp;For simplicity, we assume that the user deposits at least the amount of money for the
+&nbsp; &nbsp;product. The cash register should also be able to show the juice machine’s owner
+&nbsp; &nbsp;the amount of money in the register at any given time. The following class defines the
+&nbsp; &nbsp;properties of a cash register.
 
 
 
