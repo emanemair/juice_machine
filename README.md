@@ -14,7 +14,7 @@ operation.
 ### 5. Release the item
 
 
-<strong > Input : </strong> The item selection and the cost of the item. 
+<strong > Input : </strong> The item selection and the cost of the item. <br/> 
 <strong > Output :  </strong> The selected item 
 
 
