@@ -2,8 +2,8 @@
 
 A new fruit juice machine has been purchased for the cafeteria, and a program is needed
 to make the machine function properly. The machine dispenses apple juice, orange
-juice, mango lassi, and fruit punch in recyclable containers. In this programming
-example, we write a program for the fruit juice machine so that it can be put into
+juice, mango lassi, and fruit punch in recyclable containers. In this repository 
+we write a program for the fruit juice machine so that it can be put into
 operation.
 
 ## The program should do the following:
@@ -20,4 +20,17 @@ operation.
 
 A juice machine has two main components:<strong>  a built-in cash register </strong> and<strong>  several
 dispensers </strong>  to hold and release the products. 
+
+
+<strong> the  properties of a cash register. </strong> <br/> 
+The cash register has some cash on
+hand, it accepts the amount from the customer, and if the amount deposited is more
+than the cost of the item, then—if possible—the cash register returns the change.
+For simplicity, we assume that the user deposits at least the amount of money for the
+product. The cash register should also be able to show the juice machine’s owner
+the amount of money in the register at any given time. The following class defines the
+properties of a cash register.
+
+
+
 
