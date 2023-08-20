@@ -18,4 +18,6 @@ operation.
 <strong > Output :  </strong> The selected item 
 
 
+A juice machine has two main components:<strong>  a built-in cash register </strong> and<strong>  several
+dispensers </strong>  to hold and release the products. 
 
