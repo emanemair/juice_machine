@@ -1,6 +1,6 @@
 # Juice Machine
 
-Welcome to the Juice Machine repository! This program is designed to operate a new fruit juice machine in the cafeteria. The machine dispenses a variety of delicious beverages, including apple juice, orange juice, mango lassi, and fruit punch, all in recyclable containers. With this program, you can easily manage and enjoy your favorite juices hassle-free.
+Welcome to the Juice Machine repository! This program is designed to operate a new fruit juice machine in the cafeteria. The machine dispenses a variety of delicious beverages, including apple juice, orange juice and mango lassi, all in recyclable containers. With this program, you can easily manage and enjoy your favorite juices hassle-free.
 
 ## Program Features
 
@@ -48,4 +48,4 @@ When you run the program, it follows these steps:
 3. Validates the selection and checks if the corresponding dispenser is not empty.
 4. If the selection is valid and there are products available, the program completes the sale.
 
-Enjoy your freshly squeezed juice with the Juice Machine program!
+Enjoy your freshly squeezed juice with the Juice Machine program! :) 
