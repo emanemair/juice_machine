@@ -1,61 +1,51 @@
-# juice_machine
+# Juice Machine
 
-A new fruit juice machine has been purchased for the cafeteria, and a program is needed
-to make the machine function properly. The machine dispenses apple juice, orange
-juice, mango lassi, and fruit punch in recyclable containers. In this repository 
-we write a program for the fruit juice machine so that it can be put into
-operation.
+Welcome to the Juice Machine repository! This program is designed to operate a new fruit juice machine in the cafeteria. The machine dispenses a variety of delicious beverages, including apple juice, orange juice, mango lassi, and fruit punch, all in recyclable containers. With this program, you can easily manage and enjoy your favorite juices hassle-free.
 
-## The program should do the following:
-### 1. Show the customer the different products sold by the juice machine.
-### 2. Let the customer make the selection.
-### 3. Show the customer the cost of the item selected.
-### 4. Accept money from the customer.
-### 5. Release the item
+## Program Features
 
+The Juice Machine program provides the following essential functionalities:
 
-<strong > Input : </strong> The item selection and the cost of the item. <br/> 
-<strong > Output :  </strong> The selected item 
+1. Display the available juice products to the customer.
+2. Allow the customer to select their desired juice.
+3. Show the cost of the selected item.
+4. Accept payment from the customer.
+5. Dispense the chosen juice.
 
+**Input:** The customer's item selection and the cost of the item.  
+**Output:** The selected juice product.
 
-A juice machine has two main components:<strong>  a built-in cash register </strong> and<strong>  several
-dispensers </strong>  to hold and release the products. 
+## Key Components
 
+The Juice Machine consists of two main components: a built-in cash register and multiple dispensers for holding and releasing the juice products.
 
-<strong> the  properties of a cash register. </strong> <br/> 
-&nbsp; &nbsp;  The cash register has some cash on
-hand, it accepts the amount from the customer, and if the amount deposited is more
-&nbsp; &nbsp; than the cost of the item, then—if possible—the cash register returns the change.
-&nbsp; &nbsp;For simplicity, we assume that the user deposits at least the amount of money for the
-&nbsp; &nbsp;product. The cash register should also be able to show the juice machine’s owner
-&nbsp; &nbsp;the amount of money in the register at any given time. The following class defines the
-&nbsp; &nbsp;properties of a cash register.
- you can find the declration and implementation of cashRegister class in (cash_register.h and imp.cpp)  file  <br/> 
+### Cash Register
 
-<strong> the  properties of a dispenser. </strong> <br/> 
-The dispenser releases the selected item if it is not empty. The dispenser functionality : 
-1.show the number of items in the dispenser and the cost of the item.<br/>
-2. decrease the number of product item once the customer make a sale process 
+The cash register is responsible for managing the financial aspect of the juice machine. It handles the following tasks:
 
- you can find the declration and implementation of dispenserType class in (dispenser_type.h and imp.cpp)  file  <br/> 
+- Maintaining a cash balance.
+- Accepting payment from customers.
+- Calculating and returning change if the payment exceeds the item's cost.
+- Providing the current cash balance to the machine's owner.
 
+You can find the declaration and implementation of the `cashRegister` class in the `cash_register.h` and `imp.cpp` files.
 
- ### the main program 
- When the program executes, it must do the following:
+### Dispenser
 
-1. Show the selection to the customer.
-2. Get the selection.
-3. If the selection is valid and the dispenser corresponding to the
-selection is not empty, sell the product.
+The dispenser is responsible for managing the availability and sale of juice products. Its functions include:
 
+1. Displaying the number of items in the dispenser and the item's cost.
+2. Reducing the quantity of available items after a sale.
 
- 
+You can find the declaration and implementation of the `dispenserType` class in the `dispenser_type.h` and `imp.cpp` files.
 
+## How the Program Works
 
+When you run the program, it follows these steps:
 
+1. Displays the available juice products to the customer.
+2. Waits for the customer to make a selection.
+3. Validates the selection and checks if the corresponding dispenser is not empty.
+4. If the selection is valid and there are products available, the program completes the sale.
 
-
-
-
-
-
+Enjoy your freshly squeezed juice with the Juice Machine program!
